@@ -10,6 +10,10 @@ namespace FlightStreamDeck.Core
             {
                 return result;
             }
+            if (value != null && value.Contains("ROTOR_BRAKE")
+            {
+                return result;
+            }
 
             return null;
         }
